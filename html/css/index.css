@@ -206,7 +206,7 @@ h1,h2,h3,h4,h5,p{
 .rotateEva h2{
     font-size: 136px;
     color: #726bb1;
-    font-weight: 400;
+    font-weight: 800;
     filter: drop-shadow(0px 12px 15px rgba(6,7,7,0.12));
 }
 
@@ -230,16 +230,18 @@ h1,h2,h3,h4,h5,p{
     float: left;
     padding-top: 6%;
     width: 27%;
+    margin-left: -3%;
     
 }
 .mtitle h4{
     text-align: left;
+   
 }
 
 .mtitle h4{
     font-size: 60px;
     color: #222222;
-    font-weight: 400;
+    font-weight: 800;
     line-height: 80px;
     padding-bottom: 41px;
     width: 100%;
@@ -248,21 +250,28 @@ h1,h2,h3,h4,h5,p{
 
 
 .middleSubTitle{
-    width: 88%;
+    width: 82%;
     padding-bottom: 90px;
 }
 
 
 .middleSubTitle p{
     font-size: 21px;
+    font-weight: 600;
     color: #555555;
     text-align: justify;
 }
 
 .mRead{
     float: right;
-    padding-right: 14%;
-    padding-bottom: 90px;
+    padding-right: 22%;
+    padding-bottom: 60px;
+}
+
+.mRead h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -14%;
 }
 
 .mReadBox{
@@ -272,12 +281,13 @@ h1,h2,h3,h4,h5,p{
     position: absolute;
     background-color: #cfccff;
     z-index: -1;
-    transform: translate(399px,0);
+    transform: translate(379px,-70%);
 }
 
 .lastSection{
     float: left;
     width: 30%;
+    margin-left: -2.4%;
 }
 
 .man_photo .Img img{
@@ -314,7 +324,8 @@ h1,h2,h3,h4,h5,p{
     padding-left: 38%;
     padding-top: 14%;
     color: #726bb1;
-    font-weight: 400;
+    font-weight: 800;
+    font-size: 42px;
     padding-bottom: 59px;
 }
 
@@ -333,9 +344,9 @@ h1,h2,h3,h4,h5,p{
 
 .whybest{
     float: left;
-    padding-top: 6.5%;
-    width: 30%;
-    margin-left: 6%;
+    padding-top: 7.6%;
+    width: 28%;
+    margin-left: 5%;
     
 }
 
@@ -357,8 +368,9 @@ h1,h2,h3,h4,h5,p{
 }
 
 .section4{
-    padding-top: 10%;
+    padding-top: 8.5%;
     width: 100%;
+    padding-bottom: 3%;
     padding-left: 20%;
 }
 
@@ -366,16 +378,16 @@ h1,h2,h3,h4,h5,p{
     font-size: 48px;
     color: #726bb1;
     width: 41%;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 55px;
-    padding-bottom: 55px;
+    padding-bottom: 50px;
 }
 
 .sec4_subTitle h5{
     font-size: 21px;
     width: 35%;
     color: #555555;
-    padding-bottom: 50px;
+    padding-bottom: 38px;
 }
 
 .sec4_para p{
@@ -415,7 +427,7 @@ h1,h2,h3,h4,h5,p{
 
 
 .allpro_name h5{
-    font-size: 24px;
+    font-size: 18px;
     display: inline-block;
 
 }
@@ -432,14 +444,15 @@ h1,h2,h3,h4,h5,p{
 
 .section5{
     position: relative;
+    
 
 }
 
 .overlay1{
     padding-top: 1%;
     padding-left: 1%;
-    background: linear-gradient(to right,#9294a9cc,#c0a7b4cc,#c0a7b4cc,#d8d7e8cc),url('../assests/images/bg_evana1.png');
-    height: 800px;
+    background: linear-gradient(to right,#9294a948,#c0a7b448,#c0a7b448,#d8d7e848),url('../assests/images/bg_evana1.png');
+    height: 740px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -468,19 +481,20 @@ h1,h2,h3,h4,h5,p{
 .sec5Title h3{
     font-size: 60px;
     width: 45%;
-    font-weight: 400;
+    font-weight: 600;
     text-align: right;
+    line-height: 75px;
 
 }
 
 .sec5_subTitle p{
     padding-top: 52px;
     font-size: 21px;
-    width: 100%;
-    text-align: right;
-    padding-right: 55%;
+    width: 105%;
+    margin-left: -15%;
+    padding-right: 45%;
     line-height: 40px;
-   
+    text-align: right;
 }
 
 
@@ -527,7 +541,7 @@ h1,h2,h3,h4,h5,p{
 /* Section 6 */
 
 .section6{
-    padding-top: 3.5%;
+    padding-top: 3%;
     background-color: white;
 }
 
@@ -710,19 +724,19 @@ h1,h2,h3,h4,h5,p{
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(78%,100%);
+    transform: translate(85%,85%);
     
     
 }
 .bottom_Title{
-    padding-left: 13%;
-    padding-top: 15%;
+    padding-left: 17%;
+    padding-top: 12%;
     position: relative;
     z-index: 1;
 }
 
 .bottom_Title_h3 h3{
-    font-weight: 400;   
+    font-weight: 600;   
 }
 
 .bottom_Title_h3{
@@ -757,7 +771,7 @@ h1,h2,h3,h4,h5,p{
 .mRead1{
         padding-top: 10%;
         float: left;
-        padding-left: 5%;
+        padding-left: 6%;
         position: relative;
 
 
@@ -775,7 +789,7 @@ h1,h2,h3,h4,h5,p{
     position: absolute;
     background-color: #cfccff;
     z-index: -1;
-    transform: translate(890px,175px);
+    transform: translate(950px,175px);
 }
 
 /* Section 7 */
