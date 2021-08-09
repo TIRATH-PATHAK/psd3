@@ -4,6 +4,7 @@
 
 *{
     box-sizing: border-box;
+    outline: none;
 }
 
 body{
@@ -21,6 +22,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 
+
 .container{
     max-width: 1920px;
     width: 100%;
@@ -28,9 +30,11 @@ h1,h2,h3,h4,h5,p{
     margin: 0 auto;
 }
 
+
 .clear{
     display: block;
     content: '';
+    width: 100%;
     clear: both;
 }
 
@@ -354,13 +358,14 @@ h1,h2,h3,h4,h5,p{
 
 .section4{
     padding-top: 10%;
-    width: 48%;
+    width: 100%;
     padding-left: 20%;
 }
 
 .sec4_Title h3{
     font-size: 48px;
     color: #726bb1;
+    width: 41%;
     font-weight: 400;
     line-height: 55px;
     padding-bottom: 55px;
@@ -368,30 +373,855 @@ h1,h2,h3,h4,h5,p{
 
 .sec4_subTitle h5{
     font-size: 21px;
+    width: 35%;
     color: #555555;
     padding-bottom: 50px;
 }
 
 .sec4_para p{
     font-size: 18px;
+    width: 32%;
+    text-align: justify;
     color: #555555; 
+    margin-left: 0%;
 }
 
 .first_both{
   float: left;
-  padding-top: 20%;
-    width: 40%;
+  padding-top: 2%;
+  
     
 
 }
 
 .first_both img{
-    padding-top: 10%;
+    padding-top: 4%;
 }
 
 .both_imgs{
    position: absolute;
    left: 25%;
-   transform: translate(500px,-355px);
+   transform: translate(500px,-320px);
 }
 
+
+.all_projects{
+    text-align: right;
+    padding-right: 30%;
+    position: relative;
+    top: -80px;
+}
+
+
+
+.allpro_name h5{
+    font-size: 24px;
+    display: inline-block;
+
+}
+
+
+#i i{
+    padding: 0% 1% 0.3%;
+    box-shadow: 0px 1px 1px 0px black ;
+    border: 1px solid black;
+    
+}
+
+/* Section 5 */
+
+.section5{
+    position: relative;
+
+}
+
+.overlay1{
+    padding-top: 1%;
+    padding-left: 1%;
+    background: linear-gradient(to right,#9294a9cc,#c0a7b4cc,#c0a7b4cc,#d8d7e8cc),url('../assests/images/bg_evana1.png');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.nameEva h1{
+    font-size: 383px;
+    color: #222222;
+    padding-left: 4%;
+    float: left;
+    opacity: 0.2;
+}
+
+.sec5Title{
+    width: 40%;
+    color: white;
+    padding-top: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    transform: translate(150%,0%);
+
+}
+
+.sec5Title h3{
+    font-size: 60px;
+    width: 45%;
+    font-weight: 400;
+    text-align: right;
+
+}
+
+.sec5_subTitle p{
+    padding-top: 52px;
+    font-size: 21px;
+    width: 100%;
+    text-align: right;
+    padding-right: 55%;
+    line-height: 40px;
+   
+}
+
+
+.rect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: 1px solid #cabde180;
+    background-color: #cabde180;
+    height: 388px;
+    width: 228px;
+    transform: translate(320%,20%);
+}
+
+.sec5_btn{
+    float: left;
+    padding: 71px 0px 0% 2%;
+    
+}
+
+.sec5_btn i{
+    font-size: 34px;
+}
+
+.contain{
+    padding-left: 24%;
+    font-size: 22px;
+}
+
+.contain:hover i{
+    color: red;
+}
+
+.contain:hover h4{
+    color: black;
+}
+
+.contain a{
+    color: white;
+}
+
+
+/* Section 6 */
+
+.section6{
+    padding-top: 3.5%;
+    background-color: white;
+}
+
+.sec6Title{
+    text-align: center;
+  
+}
+
+.sec6Title h4{
+    font-size: 42px;
+    color: #726bb1;
+}
+
+.sec6SubTitle p{
+    font-size: 21px;
+    color: #555555;
+    width: 527px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1.5%;
+}
+
+
+.first_card{
+    width: 42%;
+    float: left;
+    box-shadow: 0px 0px 60px -40px  black;
+    padding: 50px;
+}
+
+
+.topCards{
+    padding-top: 5%;
+    padding-left:13%;
+}
+
+.bottomCards{
+    padding-left: 13%;
+    padding-top: 20%;
+}
+.first_logo_card{
+
+    float: left;
+    padding-right: 4%;
+}
+
+.body_txt{
+    padding-left: 12%;
+    width: 75%;
+    text-align: left;
+}
+
+.first_card{
+    margin-right: 2%;
+    border-top: 3px solid #cfcbff;
+}
+
+.First_card_read h5{
+    display: inline-block;
+}
+
+.First_card_read{
+    padding-left: 10%;
+}
+
+.First_card_read h5{
+    font-size: 16px;
+}
+
+.First_card_read i{
+    font-size: 29px;
+    padding: 0% 1% 0% 1.5%;
+    border: 1px solid black;
+    box-shadow: 0px 1px 1px 0px black;
+}
+
+.First_card_read{
+   
+    color: #222222;
+    padding-top: 48px;
+    font-weight: bold;
+    padding-left: 12%;
+}
+
+
+.Title_txt h4{
+    font-size: 21px;
+    color: #222222;
+    padding-left: 12%;
+    padding-bottom: 30px;
+}
+
+.body_txt p{
+    font-size: 18px;
+    color: #555555;
+    width: 140%;
+
+}
+
+
+.second_card{
+    width: 42%;
+    float: left;
+    box-shadow: 0px 0px 60px -40px  black;
+    border-top: 3px solid #cfcbff;
+    padding: 50px 50px 54px 50px;
+}
+
+.second_logo_card{
+    float: left;
+    padding-right: 4%;
+}
+
+.second_body_txt{
+    padding-left: 12%;
+    width: 77%;
+    text-align: left;
+}
+
+
+
+.Second_card_read{
+    color: #222222;
+    padding-top: 48px;
+    
+}
+
+.Second_card_read i{
+    font-size: 29px;
+    padding: 0% 1% 0% 1.5%;
+    border: 1px solid black;
+    box-shadow: 0px 1px 1px 0px black;
+    
+   
+}
+
+.Second_card_read h5{
+    display: inline-block;
+    padding-left: 1%;
+    font-size: 16px;
+}
+
+.Second_card_read{
+    padding-left: 12%;
+}
+
+.second_Title_txt h4{
+    font-size: 21px;
+    color: #222222;
+    padding-left: 12%;
+    padding-bottom: 4%;
+}
+
+.second_body_txt p{
+    font-size: 18px;
+    color: #555555;
+    width: 140%;
+    text-align: left;
+    
+}
+
+#h4{
+    padding-left: 13%;
+}
+
+#p{
+    padding-left: 2%;
+}
+
+.plant_main{
+    position: relative;
+
+}
+
+.plant{
+    background: linear-gradient(to right, #b1b0bfaa,#b3b3c4aa,#c1bcc964,#57607248,#a6a5b4cc),url('../assests/images/plant.png');
+    
+    height: 501px;
+    width: 1044px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(78%,100%);
+    
+    
+}
+.bottom_Title{
+    padding-left: 13%;
+    padding-top: 15%;
+    position: relative;
+    z-index: 1;
+}
+
+.bottom_Title_h3 h3{
+    font-weight: 400;   
+}
+
+.bottom_Title_h3{
+    font-size: 48px;
+    color: #222222;
+    width: 45%;
+    padding-bottom: 75px;
+  
+
+}
+
+.bottom_subTitle h5{
+    font-size: 21px;
+    color: #555555;
+    font-weight: thin;
+}
+
+.bottom_para{
+    float: left;
+}
+
+.bottom_para p{
+    font-size: 18px;
+    color: #555555;
+    padding-top: 44px;
+}
+
+.bottom_subTitle{
+    width: 28%;
+}
+
+.mRead1{
+        padding-top: 10%;
+        float: left;
+        padding-left: 5%;
+        position: relative;
+
+
+}
+
+.mRead1 h5{
+    font-size: 18px;
+    color: #222222;
+}
+
+.mReadBox1{
+    border: 1px solid #cfccff;
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    background-color: #cfccff;
+    z-index: -1;
+    transform: translate(890px,175px);
+}
+
+/* Section 7 */
+
+.team_Title{
+    text-align: center;
+    padding-top: 141px;
+}
+
+.team_Title h3{
+    font-size: 42px;
+    color: #726bb1;
+    font-weight: 400;
+}
+
+.team_subTitle p{
+    font-size: 21px;
+    color: #555555;
+    padding-top: 1%;
+    width: 29%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.team_imgs{
+    padding-top: 4%;
+}
+
+.team_imgs h5{
+    font-size: 18px;
+    color: #222222;
+}
+
+.team_imgs p{
+    font-size: 16px;
+    color: #222222;
+}
+
+.txt_right{
+    float: right;
+    transform: rotate(270deg);
+    margin-top: 10%;
+    margin-left: -10%;
+    text-align: right;
+}
+
+.txt_left{
+    float: left;
+    transform: rotate(270deg);
+    margin-left: -25%;
+    margin-top: 57%;
+}
+
+.txt_left1{
+    float: left;
+    transform: rotate(270deg);
+    margin-left: -20%;
+    margin-top: 62%;
+}
+
+.imgs1{
+    float: left;
+    padding-left: 392px;
+    /* padding-right: 32px; */
+}
+
+.imgs2{
+    float: left;
+    padding-top: 238px;
+    margin-left: -7%;
+    
+    /* padding-right: 32px; */
+}
+
+.imgs3{
+    float: left;
+    margin-left: -2%;
+
+}   
+
+.imgs4{
+    float: left;
+    padding-top: 238px;
+    margin-left: -7%;
+
+}
+
+/* Section 8 */
+
+
+.comments{
+    padding-top: 91px;
+    text-align: center;
+    background-color: #f5f9fd;
+    margin-top: 33%;
+   height: 577px;
+}
+
+.cTitle h3{
+    font-size: 36px;
+    color: #222222;
+    padding-top: 2%;
+    
+}
+
+.comment_name_main{
+    padding-top: 67px;
+    padding-left: 8%;
+
+}
+
+
+.r_shift{
+    float: right;
+}
+
+.r_shift:hover i{
+    color: lightblue;
+}
+
+.l_shift a{
+    color: #cccccc;
+}
+
+.r_shift a{
+    color: black;
+}
+
+.l_shift{
+    float: left;
+   
+}
+
+.comment_subTitle p{
+    width: 41%;
+    font-size: 18px;
+    color: #7d7e7f;
+    display: block;
+    margin: 0 auto;
+    padding-top: 38px;
+    font-style: italic;
+}
+
+.comment_name h5{
+    font-size: 18px;
+    color: #222222;
+    
+}
+
+.name_desg{
+    float:left;
+    padding-left: 23px;
+}
+
+.comment_desg p{
+    font-size: 16px;
+    color: #555555;
+}
+
+.comment_img img{
+    float: left;    
+    padding-left: 40%;
+}
+
+/* Section 9 */
+
+.sec9_Title{
+    text-align: center;
+    padding-top: 74px;
+}
+
+.sec9_Title h4,p{
+    display: block;
+    margin: 0 auto;
+
+}
+
+.sec9_Title h4{
+    font-size: 30px;
+    color: #222222;
+    width: 30%;
+}
+
+.sec9_subTitle p{
+    font-size: 18px;
+    color: #555555;
+    width: 30%;
+ 
+    padding-top: 33px;
+   
+}
+
+.email{
+
+    padding-top: 38px;
+    padding-left: 30%;
+
+
+}
+
+
+.email_id input{
+    width: 560px;
+    height: 61px;
+    box-shadow: 0px 0px 60px -25px  black;
+    border-color: white;
+    border-top: white;
+    font-size: 18px;
+    border-left: white;
+
+}
+
+
+.email_id{
+    float: left;
+  
+}
+
+.enter{
+    float: left;
+
+}
+
+.enter button{
+    width: 194px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #cfcbff;
+    cursor: pointer;
+    color: #222222;
+    font-weight: 700;
+  
+    border-color: white;
+    border-top: white;
+    border-left: white;
+}
+
+::placeholder{
+    font-size: 18px;
+}
+
+
+/* News Section */
+
+.latest_news,.latest_news_sub{
+    text-align: center;
+}
+
+.latest_news h4{
+    font-size: 42px;
+    color: #726bb1;
+    font-weight: 400;
+    padding-top: 80px;
+}
+
+.latest_news_sub p{
+    font-size: 21px;
+    color: #555555;
+    width: 32%;
+    padding-top: 2%;
+ 
+}
+
+.news_read{
+    padding-left: 376px;
+    padding-top: 73px;
+}
+
+.read1{
+    margin-right: 6%;
+}
+
+.read2{
+    margin-right: 6%;
+}
+
+.read1,.read2,.read3{
+    float: left;
+    width: 20%;
+
+
+}
+
+.read_title h5{
+    padding-top: 8%;
+    font-size: 18px;
+    width: 120%;
+    padding-bottom: 8%;
+}
+
+.read_date{
+    float: left;
+  
+}
+
+.read_wrap{
+    border-top: 1px solid #e5e5e5;
+    padding-top: 6%;
+    margin-right: -12%;
+}
+
+
+
+.read_date p{
+    font-size: 16px;
+    color: #222222;
+}
+
+.read_readmore{
+    float: right;
+    /* margin-right: -12%; */
+}
+
+.read_readmore h5{
+    font-size: 14px;
+
+}
+
+/*  Footer Section  */
+
+footer{
+    margin-top: 27%;
+    padding-top: 5%;
+    padding-bottom: 540px;
+    background-color: #f5f9fd;
+}
+.f_left{
+    padding-left: 19%;
+
+}
+
+.f_left{
+    float: left;
+}
+
+.f_title_txt h4{
+    font-size: 24px;
+    font-family: 'Roboto',sans-serif;
+    color: #726bb1;
+}
+
+.f_subtitle{
+    width: 407px;
+    padding-bottom: 59px;
+    padding-top: 51px;
+}
+
+.f_subtitle p{
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    color: #535554;
+
+}
+
+.f_icons a{
+    color: black;
+}
+
+.f_ico1{
+    float: left;
+}
+
+.f_ico2,.f_ico3,.f_ico4{
+    float: left;
+    padding-left: 5%;
+}
+
+.f_ico1:hover i{
+    color: #3b5998;
+}
+
+.f_ico2:hover i{
+    color: #1da1f2;
+}
+
+.f_ico3:hover i{
+    color: #dd4b39
+}
+
+.f_ico4:hover i{
+    color: #0077b5;
+}
+
+.copyright{
+    padding-top: 91px;
+}
+
+.copyright p{
+    font-size: 18px;
+    color: #555555;
+}
+
+.middle1{
+    float: left;
+    padding-left: 108px;
+}
+
+.middle2{
+    float: left;
+    padding-left: 108px;
+}
+
+.middle1 h4,p{
+    font-size: 18px;
+   
+}
+
+.middle1 h4{
+    padding-bottom: 30%;
+}
+
+.middle2 h4{
+    padding-bottom: 30%;
+}
+
+.middle2 h4,p{
+    font-size: 18px;
+}
+
+.middle1 p{
+   padding-bottom: 18px;
+}
+
+.middle2 p{
+    padding-bottom: 18px;
+}
+
+.photo_gallery{
+    float: left;
+    padding-left: 108px;
+}
+
+.gallery_title h4{
+    font-size: 18px;
+    padding-bottom: 40px;
+    color: #222222;
+}
+
+.pho1{
+    display: inline-block;
+
+    
+}
+
+.pho2{
+    display: inline-block;
+}
