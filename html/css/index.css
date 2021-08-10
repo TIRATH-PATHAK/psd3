@@ -67,6 +67,11 @@ h1,h2,h3,h4,h5,p{
 
 }
 
+.logo a{
+    color: #212121;
+    text-decoration: none;
+}
+
 .nav_bar{
     padding-bottom: 230px;
 }
@@ -83,6 +88,7 @@ h1,h2,h3,h4,h5,p{
 
 .nav:hover{
     border: 1px solid white;
+    cursor: pointer;
   
 }
 
@@ -90,7 +96,7 @@ h1,h2,h3,h4,h5,p{
 
 .second_sec{
     margin-left: 260px;
-    border: 14px solid red;
+    border: 14px solid #eaeaf2;
     width: 615px;
     padding: 60px 0 72px 109px;
 
@@ -118,6 +124,10 @@ h1,h2,h3,h4,h5,p{
     line-height: 90px;
     padding-bottom: 26px;
 
+}
+
+.subtitle p{
+    line-height: 35px;
 }
 
 .download h5{
@@ -219,7 +229,7 @@ h1,h2,h3,h4,h5,p{
 
 .bigE{
     position: absolute;
-    top: -290px;
+    top: -270px;
     left: 10%;
 
     z-index: -1;
@@ -268,6 +278,11 @@ h1,h2,h3,h4,h5,p{
     padding-bottom: 60px;
 }
 
+.mRead a{
+    text-decoration: none;
+    color: black;
+}
+
 .mRead h5{
     font-size: 18px;
     font-weight: 600;
@@ -281,7 +296,7 @@ h1,h2,h3,h4,h5,p{
     position: absolute;
     background-color: #cfccff;
     z-index: -1;
-    transform: translate(379px,-70%);
+    transform: translate(379px,-67%);
 }
 
 .lastSection{
@@ -302,16 +317,28 @@ h1,h2,h3,h4,h5,p{
     padding-left: 5%;
     width: 100%;
     text-align: justify;
+    font-weight: 400;
+
   
+}
+
+#nextp{
+    padding-top: 8%;
 }
 
 
 /* Main2 Section */
 
+
+.main2{
+    padding-top: 75px;
+}
+
 .bg_main2{
 
     background-color: #f5f9fd;
     height: 673px;
+    width: 100%;
 }
 
 .best_blog{
@@ -322,11 +349,11 @@ h1,h2,h3,h4,h5,p{
 
 .blog_title h4{
     padding-left: 38%;
-    padding-top: 14%;
+    padding-top: 11%;
     color: #726bb1;
     font-weight: 800;
     font-size: 42px;
-    padding-bottom: 59px;
+    padding-bottom: 30px;
 }
 
 .blog_title p{
@@ -334,6 +361,8 @@ h1,h2,h3,h4,h5,p{
     font-size: 21px;
     color: #555555;
     width: 100%;
+    line-height: 30px;
+    font-weight: 550;
     padding-bottom: 24px;
 }
 
@@ -344,7 +373,7 @@ h1,h2,h3,h4,h5,p{
 
 .whybest{
     float: left;
-    padding-top: 7.6%;
+    padding-top: 5.5%;
     width: 28%;
     margin-left: 5%;
     
@@ -356,9 +385,11 @@ h1,h2,h3,h4,h5,p{
 
 .why1_txts,.why2_txts,.why3_txts{
     font-size: 18px;
-    margin-left: 15%;
+    margin-left: 16%;
     color: #222222;
+    font-weight: 400;
     padding-bottom: 6%;
+    line-height: 30px;
 }
 
 .why1_txts p,.why2_txts p,.why3_txts p{
@@ -368,7 +399,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .section4{
-    padding-top: 8.5%;
+    padding-top: 6.5%;
     width: 100%;
     padding-bottom: 3%;
     padding-left: 20%;
@@ -381,13 +412,16 @@ h1,h2,h3,h4,h5,p{
     font-weight: 600;
     line-height: 55px;
     padding-bottom: 50px;
+    padding-left: 2%;
 }
 
 .sec4_subTitle h5{
     font-size: 21px;
     width: 35%;
     color: #555555;
-    padding-bottom: 38px;
+    font-weight: 550;
+    padding-bottom: 32px;
+    padding-left: 2%;
 }
 
 .sec4_para p{
@@ -396,6 +430,13 @@ h1,h2,h3,h4,h5,p{
     text-align: justify;
     color: #555555; 
     margin-left: 0%;
+    padding-left: 2%;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.sec4_imgs{
+    padding-top: 1%;
 }
 
 .first_both{
@@ -413,15 +454,15 @@ h1,h2,h3,h4,h5,p{
 .both_imgs{
    position: absolute;
    left: 25%;
-   transform: translate(500px,-320px);
+   transform: translate(500px,-300px);
 }
 
 
 .all_projects{
     text-align: right;
-    padding-right: 30%;
+    padding-right: 28%;
     position: relative;
-    top: -80px;
+    top: -60px;
 }
 
 
@@ -434,8 +475,9 @@ h1,h2,h3,h4,h5,p{
 
 
 #i i{
-    padding: 0% 1% 0.3%;
-    box-shadow: 0px 1px 1px 0px black ;
+    margin-left: 1%;
+    padding: 0% 1.3% 0.3% 1.5%;
+    box-shadow: 0px 1px 1px 1px black ;
     border: 1px solid black;
     
 }
@@ -452,7 +494,7 @@ h1,h2,h3,h4,h5,p{
     padding-top: 1%;
     padding-left: 1%;
     background: linear-gradient(to right,#9294a948,#c0a7b448,#c0a7b448,#d8d7e848),url('../assests/images/bg_evana1.png');
-    height: 740px;
+    height: 730px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -481,6 +523,7 @@ h1,h2,h3,h4,h5,p{
 .sec5Title h3{
     font-size: 60px;
     width: 45%;
+    padding-top: 3%;
     font-weight: 600;
     text-align: right;
     line-height: 75px;
@@ -488,7 +531,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .sec5_subTitle p{
-    padding-top: 52px;
+    padding-top: 46px;
     font-size: 21px;
     width: 105%;
     margin-left: -15%;
@@ -512,7 +555,7 @@ h1,h2,h3,h4,h5,p{
 
 .sec5_btn{
     float: left;
-    padding: 71px 0px 0% 2%;
+    padding: 51px 0px 0% 2%;
     
 }
 
@@ -545,6 +588,10 @@ h1,h2,h3,h4,h5,p{
     background-color: white;
 }
 
+.sec6Cards{
+    padding-left: 8%;
+}
+
 .sec6Title{
     text-align: center;
   
@@ -566,7 +613,7 @@ h1,h2,h3,h4,h5,p{
 
 
 .first_card{
-    width: 42%;
+    width: 554px;
     float: left;
     box-shadow: 0px 0px 60px -40px  black;
     padding: 50px;
@@ -576,6 +623,8 @@ h1,h2,h3,h4,h5,p{
 .topCards{
     padding-top: 5%;
     padding-left:13%;
+
+ 
 }
 
 .bottomCards{
@@ -585,18 +634,20 @@ h1,h2,h3,h4,h5,p{
 .first_logo_card{
 
     float: left;
-    padding-right: 4%;
+    padding-right: 8%;
 }
 
 .body_txt{
-    padding-left: 12%;
-    width: 75%;
+    padding-left: 17%;
+    width: 78%;
     text-align: left;
+    line-height: 26px;
 }
 
 .first_card{
     margin-right: 2%;
     border-top: 3px solid #cfcbff;
+    padding-top: 2%;
 }
 
 .First_card_read h5{
@@ -605,6 +656,7 @@ h1,h2,h3,h4,h5,p{
 
 .First_card_read{
     padding-left: 10%;
+    
 }
 
 .First_card_read h5{
@@ -613,7 +665,7 @@ h1,h2,h3,h4,h5,p{
 
 .First_card_read i{
     font-size: 29px;
-    padding: 0% 1% 0% 1.5%;
+    padding: 0% 2% 0% 2%;
     border: 1px solid black;
     box-shadow: 0px 1px 1px 0px black;
 }
@@ -621,9 +673,9 @@ h1,h2,h3,h4,h5,p{
 .First_card_read{
    
     color: #222222;
-    padding-top: 48px;
+    padding-top: 3%;
     font-weight: bold;
-    padding-left: 12%;
+    padding-left: 17%;
 }
 
 
@@ -631,7 +683,7 @@ h1,h2,h3,h4,h5,p{
     font-size: 21px;
     color: #222222;
     padding-left: 12%;
-    padding-bottom: 30px;
+    padding-bottom: 26px;
 }
 
 .body_txt p{
@@ -643,35 +695,36 @@ h1,h2,h3,h4,h5,p{
 
 
 .second_card{
-    width: 42%;
+    width: 554px;
     float: left;
     box-shadow: 0px 0px 60px -40px  black;
     border-top: 3px solid #cfcbff;
-    padding: 50px 50px 54px 50px;
+    padding: 35px 50px 33px 50px;
 }
 
 .second_logo_card{
     float: left;
-    padding-right: 4%;
+    padding-right: 9%;
 }
 
 .second_body_txt{
     padding-left: 12%;
     width: 77%;
     text-align: left;
+    line-height: 30px;
 }
 
 
 
 .Second_card_read{
     color: #222222;
-    padding-top: 48px;
+    padding-top: 6px;
     
 }
 
 .Second_card_read i{
     font-size: 29px;
-    padding: 0% 1% 0% 1.5%;
+    padding: 0% 2% 0% 2%;
     border: 1px solid black;
     box-shadow: 0px 1px 1px 0px black;
     
@@ -682,6 +735,8 @@ h1,h2,h3,h4,h5,p{
     display: inline-block;
     padding-left: 1%;
     font-size: 16px;
+    padding-left: 9%;
+    padding-bottom: 10%;
 }
 
 .Second_card_read{
@@ -692,23 +747,26 @@ h1,h2,h3,h4,h5,p{
     font-size: 21px;
     color: #222222;
     padding-left: 12%;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
 }
 
 .second_body_txt p{
     font-size: 18px;
     color: #555555;
     width: 140%;
+    padding-left: 11%;
     text-align: left;
     
 }
+
 
 #h4{
     padding-left: 13%;
 }
 
 #p{
-    padding-left: 2%;
+    padding-left: 10%;
+    
 }
 
 .plant_main{
@@ -724,7 +782,7 @@ h1,h2,h3,h4,h5,p{
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(85%,85%);
+    transform: translate(84%,78%);
     
     
 }
@@ -737,21 +795,27 @@ h1,h2,h3,h4,h5,p{
 
 .bottom_Title_h3 h3{
     font-weight: 600;   
+    font-size: 48px;
 }
 
 .bottom_Title_h3{
-    font-size: 48px;
+    
     color: #222222;
-    width: 45%;
-    padding-bottom: 75px;
-  
+    width: 42%;
+    padding-bottom: 50px;
+    padding-left: 4%;
 
 }
 
 .bottom_subTitle h5{
     font-size: 21px;
     color: #555555;
+    width: 100%;
+    line-height: 30px;
+    font-family: 'Roboto',sans-serif;
     font-weight: thin;
+    text-align: justify;
+    padding-left: 14%;
 }
 
 .bottom_para{
@@ -761,7 +825,11 @@ h1,h2,h3,h4,h5,p{
 .bottom_para p{
     font-size: 18px;
     color: #555555;
-    padding-top: 44px;
+    font-family: 'Roboto',sans-serif;
+    padding-top: 32px;
+    text-align: justify;
+    line-height: 27px;
+    padding-left: 14%;
 }
 
 .bottom_subTitle{
@@ -769,12 +837,16 @@ h1,h2,h3,h4,h5,p{
 }
 
 .mRead1{
-        padding-top: 10%;
+        padding-top: 11%;
         float: left;
         padding-left: 6%;
         position: relative;
 
 
+}
+
+.mRead1 a{
+    text-decoration: none;
 }
 
 .mRead1 h5{
@@ -789,10 +861,16 @@ h1,h2,h3,h4,h5,p{
     position: absolute;
     background-color: #cfccff;
     z-index: -1;
-    transform: translate(950px,175px);
+    transform: translate(954px,190px);
 }
 
 /* Section 7 */
+
+.hr{
+    margin-top: -5%;
+    margin-bottom: 2.6%;
+    color: #e5e5e5
+}
 
 .team_Title{
     text-align: center;
@@ -802,14 +880,16 @@ h1,h2,h3,h4,h5,p{
 .team_Title h3{
     font-size: 42px;
     color: #726bb1;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .team_subTitle p{
     font-size: 21px;
     color: #555555;
-    padding-top: 1%;
+    padding-top: 2%;
     width: 29%;
+    line-height: 30px;
+    font-weight: 550;
     display: block;
     margin: 0 auto;
 }
@@ -817,7 +897,8 @@ h1,h2,h3,h4,h5,p{
 
 
 .team_imgs{
-    padding-top: 4%;
+    padding-top: 4.5%;
+    /* padding-left: 2%; */
 }
 
 .team_imgs h5{
@@ -834,7 +915,6 @@ h1,h2,h3,h4,h5,p{
     float: right;
     transform: rotate(270deg);
     margin-top: 10%;
-    margin-left: -10%;
     text-align: right;
 }
 
@@ -850,6 +930,14 @@ h1,h2,h3,h4,h5,p{
     transform: rotate(270deg);
     margin-left: -20%;
     margin-top: 62%;
+}
+
+.imgs1 a, .imgs2 a, .imgs3 a, .imgs4 a{
+    text-decoration: none;
+}
+
+.imgs1 h5:hover, .imgs2 h5:hover, .imgs3 h5:hover, .imgs4 h5:hover{
+    color: #726bb1;
 }
 
 .imgs1{
@@ -868,7 +956,7 @@ h1,h2,h3,h4,h5,p{
 
 .imgs3{
     float: left;
-    margin-left: -2%;
+    margin-left: -2.5%;
 
 }   
 
@@ -883,11 +971,14 @@ h1,h2,h3,h4,h5,p{
 
 
 .comments{
-    padding-top: 91px;
+    padding-top: 110px;
     text-align: center;
     background-color: #f5f9fd;
+    max-width: 1920px;
+    width: 100%;
+    margin-left: 2%;
     margin-top: 33%;
-   height: 577px;
+     height: 623px;
 }
 
 .cTitle h3{
@@ -898,14 +989,15 @@ h1,h2,h3,h4,h5,p{
 }
 
 .comment_name_main{
-    padding-top: 67px;
-    padding-left: 8%;
+    padding-top: 52px;
+    padding-left: 9%;
 
 }
 
 
 .r_shift{
     float: right;
+    margin-right: 3%;
 }
 
 .r_shift:hover i{
@@ -922,6 +1014,7 @@ h1,h2,h3,h4,h5,p{
 
 .l_shift{
     float: left;
+    margin-left: 3%;
    
 }
 
@@ -931,8 +1024,11 @@ h1,h2,h3,h4,h5,p{
     color: #7d7e7f;
     display: block;
     margin: 0 auto;
-    padding-top: 38px;
+    line-height: 35px;
+    padding-top: 48px;
     font-style: italic;
+    padding-left: 2%;
+    font-weight: 500;
 }
 
 .comment_name h5{
@@ -973,21 +1069,22 @@ h1,h2,h3,h4,h5,p{
     font-size: 30px;
     color: #222222;
     width: 30%;
+    padding-top: 0.5%;
 }
 
 .sec9_subTitle p{
     font-size: 18px;
     color: #555555;
     width: 30%;
- 
-    padding-top: 33px;
+    line-height: 28px;
+    padding-top: 12px;
    
 }
 
 .email{
 
-    padding-top: 38px;
-    padding-left: 30%;
+    padding-top: 42px;
+    padding-left: 31%;
 
 
 }
@@ -996,7 +1093,7 @@ h1,h2,h3,h4,h5,p{
 .email_id input{
     width: 560px;
     height: 61px;
-    box-shadow: 0px 0px 60px -25px  black;
+    box-shadow: 0px 0px 60px -26px  black;
     border-color: white;
     border-top: white;
     font-size: 18px;
@@ -1022,8 +1119,9 @@ h1,h2,h3,h4,h5,p{
     background-color: #cfcbff;
     cursor: pointer;
     color: #222222;
-    font-weight: 700;
-  
+    font-weight: 800;
+    border-bottom: white;
+    border-right: white;
     border-color: white;
     border-top: white;
     border-left: white;
@@ -1043,15 +1141,17 @@ h1,h2,h3,h4,h5,p{
 .latest_news h4{
     font-size: 42px;
     color: #726bb1;
-    font-weight: 400;
-    padding-top: 80px;
+    font-weight: 550;
+    padding-top: 60px;
 }
 
 .latest_news_sub p{
     font-size: 21px;
     color: #555555;
     width: 32%;
-    padding-top: 2%;
+    font-weight: 550;
+    padding-top: 1.5%;
+    line-height: 30px;
  
 }
 
@@ -1076,7 +1176,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .read_title h5{
-    padding-top: 8%;
+    padding-top: 3%;
     font-size: 18px;
     width: 120%;
     padding-bottom: 8%;
@@ -1102,7 +1202,7 @@ h1,h2,h3,h4,h5,p{
 
 .read_readmore{
     float: right;
-    /* margin-right: -12%; */
+    margin-right: -7%;
 }
 
 .read_readmore h5{
@@ -1110,10 +1210,19 @@ h1,h2,h3,h4,h5,p{
 
 }
 
+.read_readmore a{
+    color: black;
+    text-decoration: none;
+}
+
+.read_readmore a:hover{
+    color:#726bb1;
+}
+
 /*  Footer Section  */
 
 footer{
-    margin-top: 27%;
+    margin-top: 21.7%;
     padding-top: 5%;
     padding-bottom: 540px;
     background-color: #f5f9fd;
@@ -1128,15 +1237,17 @@ footer{
 }
 
 .f_title_txt h4{
-    font-size: 24px;
-    font-family: 'Roboto',sans-serif;
+    font-size: 30px;
+   
     color: #726bb1;
+    font-weight: bolder;
 }
 
 .f_subtitle{
     width: 407px;
     padding-bottom: 59px;
-    padding-top: 51px;
+    padding-top: 28px;
+    line-height: 29px;
 }
 
 .f_subtitle p{
@@ -1187,28 +1298,45 @@ footer{
 .middle1{
     float: left;
     padding-left: 108px;
+    line-height: 26px;
+   
 }
 
 .middle2{
     float: left;
     padding-left: 108px;
+    line-height: 26px;
+   
+}
+
+.middle1 a,.middle2 a{
+    color: #555555;
+    text-decoration: none;
+} 
+
+.middle1 p:hover, .middle2 p:hover{
+    color: #726bb1;
 }
 
 .middle1 h4,p{
     font-size: 18px;
+    font-family: 'Roboto',sans-serif;
    
 }
 
 .middle1 h4{
     padding-bottom: 30%;
+    font-weight: 800;
 }
 
 .middle2 h4{
     padding-bottom: 30%;
+    font-weight: 800;
 }
 
 .middle2 h4,p{
     font-size: 18px;
+    font-family: 'Roboto',sans-serif;
 }
 
 .middle1 p{
@@ -1220,11 +1348,14 @@ footer{
 }
 
 .photo_gallery{
+    
     float: left;
     padding-left: 108px;
+    font-family: 'Roboto',sans-serif;
 }
 
 .gallery_title h4{
+    font-weight: 800;
     font-size: 18px;
     padding-bottom: 40px;
     color: #222222;
@@ -1238,4 +1369,9 @@ footer{
 
 .pho2{
     display: inline-block;
+}
+
+#b{
+    font-weight: 800;
+    color: #222222;
 }
